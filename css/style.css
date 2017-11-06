@@ -1,0 +1,121 @@
+
+/***FONTS***/
+@font-face {
+    font-family: "Lavanderia";
+    src: url('../font/Lavanderia.eot') format('embedded-opentype');
+    src: url('../font/Lavanderia.woff') format('woff');
+}
+
+@font-face {
+    font-family: "AlteHaasGrotesk";
+    src: url('../font/AlteHaasGrotesk.eot') format('embedded-opentype');
+    src: url('../font/AlteHaasGrotesk.woff') format('woff');
+}
+@font-face {
+    font-family: "UniversLT-Light";
+    src: url('../font/UniversLT-Light.eot') format('embedded-opentype');
+    src: url('../font/UniversLT-Light.woff') format('woff');
+}
+
+* {   margin: 0;    padding: 0;    }
+
+.cont{    width:1024px;    margin: 0 auto;    position: relative;   }
+
+/*LOGO*/
+.logo{	font-family: Lavanderia, Arial, sans-serif;	font-size:40px;	padding-top: 12px;	float:left; }
+.logo a{ color: #000;	text-decoration: none; }
+.logo em{	color:#b73958;	font-style: normal; }
+
+/*NAV*/
+.nav{	height:89px;	background-color: #fff;	opacity: 0.8;	}
+.nav-menu{  font-family: 'Segoe UI'; float:right; font-size:16px;  color:gray; }
+.nav li{    float:left;      padding-right:37px;        list-style-type: none;    padding-top:40px; }
+.nav-menu a{	text-decoration: none;	color:gray; }
+.nav-menu em{  color:#fff;	font-style: normal;
+	}
+.btn-login{
+	background-color: #de6d6e;
+	padding: 1px 15px 3px 15px;
+	border-radius: 3px;
+	font-size: 17px;
+    text-decoration: none;  
+    display: inline-block;	
+    font-family: Segoe UI;
+    color:#fff;
+}
+
+.btn-login a{ 
+	color:#fff;
+}
+/* BANNER*/
+.banner{	background: url("../img/banner.jpg") no-repeat;	background-size: cover;	height:588px;	width:100%;	background-attachment: fixed; }
+.banner-title{	padding-top:300px;	text-align: center; 
+}
+.banner-title h1{ 	font-family: AlteHaasGrotesk, Arial, sans-serif; 	font-size:68px;	color:white; 	text-shadow: 4px 2px 20px #3a3131;
+}
+.banner-title p{ 
+	font-family: UniversLT-Light, Arial, sans-serif; 
+	font-size: 25px;
+	color: #fff;
+	font-weight:100;
+	text-shadow: 4px 2px 20px #3a3131;
+}
+/* FIRST SECTION */
+.first-sec{	padding: 60px 35px 50px 35px;	font-family:UniversLT-Light; }
+.f-sec-text{	padding:0px 85px 35px 85px;	text-align: center;	line-height: 20px; }
+.f-sec-text p{ padding:10px 0px 10px 0px; font-size: 17px; }
+.first-sec h1{	font-size:35px;	font-weight: 100;	padding-bottom:20px; }
+.first-sec-ico{ padding: 20px 0px;float:left; }
+.secnd-border{	border-bottom: 2px solid #f2f2f2; }
+
+/* NEWS FEED */
+.news-feed{	padding: 40px 0px 37px 0px;	}
+.news-img-col{	padding:0px 15px 0px 65px;	float:left; }
+.news-text-col{	font-family: UniversLT-Light;	padding:0px 5px 40px 5px;	font-size: 15px;	line-height: 25px;}
+.news-text-col h2{	font-size:27px;	padding-bottom:15px;	font-weight:100;}
+.f-icons{	padding:0px 32px; }
+
+/*	FOOTER */
+.footer{	background: url(../img/footer-back.jpg); 	padding: 30px 0px;}
+.footer-col{	
+	padding:0px 0px 10px 65px;	
+	width:130px; 
+	color:#8b8b8b;
+	float:left;
+}
+.f-list{list-style-type: none;}
+.f-list li{	padding-bottom:10px; }
+ .f-list a {
+ 	text-decoration: none; 	
+    color:#8b8b8b;
+    font-family: UniversLT-Light;
+    font-size: 15px;
+ }
+.f-list h2{
+	font-size:21px;
+	padding-bottom:10px;
+	font-family: UniversLT-Light;
+	color:#aeaeae;
+	font-weight:100;
+}
+
+/* SOCIAL ICONS*/
+.footer-ico{ padding:15px 0px  0px 48px;}
+.footer-ico a:last-child{padding-right:30px;}
+.i-login{background: url(../img/login.png) no-repeat; 	padding:0px 0px  0px 24px;	text-decoration: none;}
+.i-spcin{padding: 0px 38px 37px 25px;}
+.i-fb{background: url(../img/fb.png) no-repeat;text-decoration: none;}
+.i-twit{background: url(../img/twitter.png) no-repeat; text-decoration: none;}
+.i-dribb{background: url(../img/dribb.png) no-repeat;text-decoration: none;}
+.i-share{background: url(../img/share.png) no-repeat; text-decoration: none;}
+.footer-p{
+	padding-top:75px;
+	font-family: UniversLT-Light;
+	color:#8b8b8b;
+	font-weight:100;	
+	font-size:14px;
+}
+.clearfix:after {     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0;     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
